@@ -35,13 +35,18 @@ ___
 
 - [ ] 1 - Crie testes _unitários_ para o fluxo de _sessão_ de usuários
   - [ ] 1.1 - Controllers
-  - [ ] 1.2 - Services
+  - [ ] 1.2 - Services{
+  - [ ] session-controllers => Luis O.  
+  - [ ] session-service => Leidy Olinto,
+  }
 
 - [ ] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
   - [ ] 2.1 - Controllers
-  - [ ] 2.2 - Services
+  - [ ] 2.2 - Services {
+  - [ ] user-services 
+  - [ ] user-controllers }
 
-- [ ] O trabalho pode ser feito em grupo de até 5 pessoas.
+  - [X] O trabalho pode ser feito em grupo de até 5 pessoas.
 
 ___
 
