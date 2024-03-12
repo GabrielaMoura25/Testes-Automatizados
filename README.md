@@ -41,13 +41,13 @@ ___
   - [ ] 2.1 - Controllers
   - [ ] 2.2 - Services
 
-- [ ] O trabalho pode ser feito em grupo de até 5 pessoas.
+- [x] O trabalho pode ser feito em grupo de até 5 pessoas.
 
 ___
 
 #### Observação
 
-- Não é necessário fazer testes **e2e** mas será apreciado
+- Não é necessário fazer testes **e2e** mas será apreciado (Djair e Gabriela)
 
 - Utilize mocks quando necessário
 
