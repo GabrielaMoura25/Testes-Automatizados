@@ -43,15 +43,16 @@ ___
 - [ ] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
   - [ ] 2.1 - Controllers
   - [ ] 2.2 - Services {
-  - [ ] user-services 
+  - [ ] user-services => Suamy
   - [ ] user-controllers }
 
   - [X] O trabalho pode ser feito em grupo de até 5 pessoas.
 
 ___
 
-#### Observação
+#### Observação 
 
+   Gabriela e Djair
 - Não é necessário fazer testes **e2e** mas será apreciado
 
 - Utilize mocks quando necessário
