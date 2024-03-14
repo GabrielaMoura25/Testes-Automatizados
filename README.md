@@ -34,12 +34,12 @@ ___
 #### Os requisitos do projeto foram originalmente definidos como
 
 - [ ] 1 - Crie testes _unitários_ para o fluxo de _sessão_ de usuários
-  - [ ] 1.1 - Controllers
-  - [ ] 1.2 - Services
+  - [ ] 1.1 - Controllers (Luis)
+  - [ ] 1.2 - Services (Leidy)
 
 - [ ] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
-  - [ ] 2.1 - Controllers
-  - [ ] 2.2 - Services
+  - [ ] 2.1 - Controllers (Suamy)
+  - [ ] 2.2 - Services (Suamy)
 
 - [x] O trabalho pode ser feito em grupo de até 5 pessoas.
 
