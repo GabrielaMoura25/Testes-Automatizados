@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const server = require('./src/app')
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3001
 
 mongoose.connect(process.env.MONGO_DB_URL)
     .then(() => {
