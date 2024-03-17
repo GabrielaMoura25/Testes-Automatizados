@@ -45,7 +45,7 @@ ___
 
 ___
 
-#### Observação
+#### Observação 
 
 - Não é necessário fazer testes **e2e** mas será apreciado (Djair e Gabriela)
   - [x] Teste _e2e_ da funcionalidade de criação de usuários
