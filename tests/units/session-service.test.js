@@ -24,4 +24,16 @@ describe('SessionService', () => {
     process.env.SECRET_KEY = originalSecretKey;
   });
 
+  test('should throw an error if token is expired', () => {
+    const secretKey=process.env.SECRET_KEY || 'default_secret_key';
+    const email = 'equipe.ada@gmail.com';
+    const token = jwt.sign({ email }, secretKey, { expiresIn: '1ms' });
+    setTimeout(() => {
+      expect(() => {
+        jwt.decodeToken(token);
+      }).toThrow('jwt expired');
+    }, 2);
+  
+  });
+
 });
