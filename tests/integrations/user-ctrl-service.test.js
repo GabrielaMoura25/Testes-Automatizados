@@ -13,6 +13,7 @@ const user = {
     email: faker.internet.email(),
     phone: faker.phone.number(),
     cpf: cpf.generate(),
+    password: 'hashedPassword123'
 }
 
 const req = {
@@ -70,4 +71,25 @@ describe('User Controller Tests', () => {
         expect(res.status).toHaveBeenCalledWith(500);
         expect(res.json).toHaveBeenCalledWith('Server Error');
     })
+
+    test('Should return 200 if user was created with sucess', async () => {
+        const params = { email: req.body.email, password: req.body.password }
+        const result = await UserService.userExistsAndCheckPassword(params);
+        expect(result).toBe(true)
+    });
+
+    test('Should return false if user does not exist', async () => {
+        const params = { email: 'meudeusgabidenovonao', password: req.body.password }
+        const result = await UserService.userExistsAndCheckPassword(params);
+        expect(result).toBe(false)
+    });
+
+    test('Should return false if password is incorrect', async () => {
+        const params = { email: req.body.email, password: 'naoacreditoleide' };
+        try {
+            await UserService.userExistsAndCheckPassword(params)
+        } catch (error) {
+            expect(error.message).toBe('As senhas não batem')
+        }
+    });
 })
