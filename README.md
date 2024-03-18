@@ -34,26 +34,21 @@ ___
 #### Os requisitos do projeto foram originalmente definidos como
 
 - [ ] 1 - Crie testes _unitários_ para o fluxo de _sessão_ de usuários
-  - [ ] 1.1 - Controllers
-  - [ ] 1.2 - Services{
-  - [ ] session-controllers => Luis O.  
-  - [ ] session-service => Leidy Olinto,
-  }
+  - [ ] 1.1 - Controllers (Luis)
+  - [ ] 1.2 - Services (Leidy)
 
 - [ ] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
-  - [ ] 2.1 - Controllers
-  - [ ] 2.2 - Services {
-  - [ ] user-services => Suamy
-  - [ ] user-controllers }
+  - [ ] 2.1 - Controllers (Suamy)
+  - [ ] 2.2 - Services (Suamy)
 
-  - [X] O trabalho pode ser feito em grupo de até 5 pessoas.
+- [x] O trabalho pode ser feito em grupo de até 5 pessoas.
 
 ___
 
 #### Observação 
 
-   Gabriela e Djair
-- Não é necessário fazer testes **e2e** mas será apreciado
+- Não é necessário fazer testes **e2e** mas será apreciado (Djair e Gabriela)
+  - [x] Teste _e2e_ da funcionalidade de criação de usuários
 
 - Utilize mocks quando necessário
 
