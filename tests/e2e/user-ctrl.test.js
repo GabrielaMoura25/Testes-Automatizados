@@ -15,7 +15,7 @@ userMock = {
 
 describe('[e2e] Create user tests', () => {
   beforeAll(async () => {
-    mongoose.connect(process.env.MONGO_DB_URL);
+    await mongoose.connect(process.env.MONGO_DB_BASE_URL);
     await User.deleteMany({ name: { $regex: prefixo } }); // Apaga só os documentos gerados a partir desses destes
   });
 

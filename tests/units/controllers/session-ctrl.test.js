@@ -1,6 +1,6 @@
-const SessionController = require("../../src/controllers/session-ctrl");
-const UserService = require("../../src/services/user-service");
-const SessionService = require("../../src/services/session-service");
+const SessionController = require("../../../src/controllers/session-ctrl");
+const UserService = require("../../../src/services/user-service");
+const SessionService = require("../../../src/services/session-service");
 
 const req = {
   body: {
@@ -56,9 +56,10 @@ describe("SessionController", () => {
     it("should return 500 error for server errors", async () => {
       req.body.email = 'valid-email@test.com';
       req.body.password = 'validPassword';
-      UserService.userExistsAndCheckPassword = jest.fn().mockRejectedValue(new Error('Unexpected error'));
+      UserService.userExistsAndCheckPassword = jest.fn().mockRejectedValue(new Error());
       await SessionController.create(req, res);
       expect(res.statusCode).toBe(500);
+      expect(res.json).toHaveBeenCalledWith('Server Error');
     });
   });
 });
