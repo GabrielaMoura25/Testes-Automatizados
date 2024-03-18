@@ -29,7 +29,7 @@ describe('[e2e] Create user tests', () => {
     expect(res.body).toHaveProperty('id');
   });
 
-  test("Should return message 'Senha inválida' when a missing password is provided", async () => {
+  test("Should return sttus 400 and message 'Senha inválida' when a missing password is provided", async () => {
     const usr = { ...userMock }
     delete usr.password;
     const res = await superRequest(app).post('/user').send(usr);
