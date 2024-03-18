@@ -27,19 +27,23 @@ Para executar o projeto, execute:
   npm test
 ```
 
+### Observação:
+
+- No projeto tem o arquivo `.env.example`, como exemplo, antes de rodar o projeto peço que retire o `.example`e add suas variáveis de ambiente.
+
 ___
 
 ### Sobre o projeto
 
 #### Os requisitos do projeto foram originalmente definidos como
 
-- [ ] 1 - Crie testes _unitários_ para o fluxo de _sessão_ de usuários
-  - [ ] 1.1 - Controllers (Luis)
-  - [ ] 1.2 - Services (Leidy)
+- [x] 1 - Crie testes _unitários_ para o fluxo de _sessão_ de usuários
+  - [x] 1.1 - Controllers (Luis)
+  - [x] 1.2 - Services (Leidy)
 
-- [ ] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
-  - [ ] 2.1 - Controllers (Suamy)
-  - [ ] 2.2 - Services (Suamy)
+- [x] 2 - Crie testes de _integração_ para o fluxo de _criação_ de usuários
+  - [x] 2.1 - Controllers (Suamy)
+  - [x] 2.2 - Services (Suamy)
 
 - [x] O trabalho pode ser feito em grupo de até 5 pessoas.
 
@@ -54,7 +58,7 @@ ___
 
 #### Os requisitos adjacentes que encontramos foram
 
-- [ ] Definir um agrupamento legível para os arquivos de testes dentro do projeto;
+- [x] Definir um agrupamento legível para os arquivos de testes dentro do projeto;
 
 ### Integrantes desse projeto
 
@@ -67,3 +71,5 @@ ___
 [Gabriela Moura](https://www.linkedin.com/in/gabriela-daniel-moura/)
 
 [Djair Alves](https://www.linkedin.com/in/djairdj)
+
+[Luis Otávio](https://www.linkedin.com/in/luis-otavio-jesus-alves/)
