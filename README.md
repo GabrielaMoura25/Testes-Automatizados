@@ -5,7 +5,7 @@
 ### Requisitos para executar a aplicação
 
 ___
-Nesse projeto será usado TypeScript, então para executar a aplicação, será necessário um ambiente de execução JavaScript, como exemplo:
+Nesse projeto será usado JavaScript, então para executar a aplicação, será necessário um ambiente de execução JavaScript, como exemplo:
 
 - [NodeJs](https://nodejs.org/en/download)
 
@@ -27,9 +27,15 @@ Para executar o projeto, execute:
   npm test
 ```
 
+Caso opte por verificar a cobertura dos testes atuais, execute no terminal:
+
+```bash
+  npx jest --coverage
+```
+
 ### Observação:
 
-- No projeto tem o arquivo `.env.example`, como exemplo, antes de rodar o projeto peço que retire o `.example`e add suas variáveis de ambiente.
+- No projeto tem o arquivo `.env.example`, como exemplo, antes de rodar o projeto peço que retire o `.example` e ajuste para os valores de suas variáveis de ambiente.
 
 ___
 
@@ -49,7 +55,7 @@ ___
 
 ___
 
-#### Observação 
+#### Observação:
 
 - Não é necessário fazer testes **e2e** mas será apreciado (Djair e Gabriela)
   - [x] Teste _e2e_ da funcionalidade de criação de usuários
@@ -68,8 +74,8 @@ ___
 
 [Suamy Vasconcelos](https://www.linkedin.com/in/suamyvasconcelos/)
 
+[Luis Otávio](https://www.linkedin.com/in/luis-otavio-jesus-alves/)
+
 [Gabriela Moura](https://www.linkedin.com/in/gabriela-daniel-moura/)
 
 [Djair Alves](https://www.linkedin.com/in/djairdj)
-
-[Luis Otávio](https://www.linkedin.com/in/luis-otavio-jesus-alves/)
